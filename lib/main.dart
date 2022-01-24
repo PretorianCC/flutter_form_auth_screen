@@ -18,14 +18,14 @@ class MyApp extends StatelessWidget {
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kBackgrounColor,
         textTheme: const TextTheme(
-          display1: TextStyle(
+          headline3: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
           ),
           button: TextStyle(
             color: kPrimaryColor,
           ),
-          headline: TextStyle(
+          headline4: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.normal,
           ),
@@ -69,11 +69,11 @@ class WelcomeScreen extends StatelessWidget {
                   text: TextSpan(children: [
                     TextSpan(
                       text: 'BAKING LESSONS\n',
-                      style: Theme.of(context).textTheme.display1,
+                      style: Theme.of(context).textTheme.headline4,
                     ),
                     TextSpan(
                       text: 'MASTER THE ART OF BAKING',
-                      style: Theme.of(context).textTheme.headline,
+                      style: Theme.of(context).textTheme.headline5,
                     ),
                   ]),
                 ),

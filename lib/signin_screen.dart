@@ -32,7 +32,7 @@ class SignInScreen extends StatelessWidget {
                     children: [
                       Text(
                         'SIGN IN',
-                        style: Theme.of(context).textTheme.display1,
+                        style: Theme.of(context).textTheme.headline4,
                       ),
                       Text(
                         'SIGN UP',
